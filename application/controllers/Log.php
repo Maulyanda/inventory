@@ -143,10 +143,10 @@ class Log extends CI_Controller {
 						if($qck->username==$usr && $pass==$pww)
 						{
 
-							if ($qck->level=='Gudang') {
+							if ($qck->level=='Inventory') {
 								$qcek = $this->db->get_where('users', array('username' => $usr ));
 								foreach ($qcek->result() as $sess) {
-									$sess_data['logged_in'] = 'gudang ok';
+									$sess_data['logged_in'] = 'inventory ok';
 									$sess_data['username'] = $sess->username;
 									$sess_data['nama'] = $sess->nama;
 									$sess_data['level'] = $sess->level;

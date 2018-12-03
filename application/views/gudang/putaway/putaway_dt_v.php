@@ -10,7 +10,7 @@
             <tr>
                 <th width="5%">#</th>
                 <th>Kode Putaway</th>
-                <th>Part Case</th>
+                <th>Case Id/Part Number</th>
                 <th>Old Location</th>
                 <th>New Location</th>
                 <th>QTY</th>

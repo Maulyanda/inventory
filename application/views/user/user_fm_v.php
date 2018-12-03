@@ -21,7 +21,7 @@
       <label>Status :</label>
       <select class="form-control" name="status" id="stts_" required>
         <option value="">Pilih</option>
-        <option value="Gudang">Gudang</option>
+        <option value="Inventory">Inventory</option>
         <option value="Pimpinan">Pimpinan</option>
         <option value="Staff">Staff</option>
       </select>

@@ -26,8 +26,8 @@
       <input type="text" name="kd_txt" value="<?php echo $hasilkode ?>" id="kd" class="form-control" placeholder="Kode Receiving KD" readonly>
     </div>
     <div class="form-group">
-      <label>Part Case :</label>
-      <input type="text" name="pc_txt" id="pc" class="form-control" placeholder="Part Case" autofocus>
+      <label>Case Id/Part Number :</label>
+      <input type="text" name="pc_txt" id="pc" class="form-control" placeholder="Case Id/Part Number" autofocus>
     </div>
     <div class="form-group">
       <label>Old Location :</label>

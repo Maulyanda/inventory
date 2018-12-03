@@ -405,8 +405,8 @@ class Gudang extends CI_Controller {
 	  if (isset($_POST) && !empty($_POST)) {
 	          $this->form_validation->set_rules('kd_txt', 'Kode', 'trim|required');
 	          $this->form_validation->set_rules('pc_txt', 'Part Case', 'trim|required');
-	          $this->form_validation->set_rules('old_txt', 'Old Location', 'trim|required');
-            $this->form_validation->set_rules('neloc_txt', 'New Location', 'trim|required');
+	          $this->form_validation->set_rules('old_txt', 'Old Location');
+            $this->form_validation->set_rules('neloc_txt', 'New Location');
             $this->form_validation->set_rules('qty_txt', 'QTY Location');
 
 	          if ($this->form_validation->run() == FALSE){

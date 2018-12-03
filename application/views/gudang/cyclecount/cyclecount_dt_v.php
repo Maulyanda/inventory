@@ -10,7 +10,7 @@
             <tr>
                 <th width="5%">#</th>
                 <th>Kode Cycle Count</th>
-                <th>Part Case</th>
+                <th>Case Id/Part Number</th>
                 <th>Location</th>
                 <th>Qty</th>
                 <th class="text-center">Option</th>

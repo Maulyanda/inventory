@@ -44,7 +44,7 @@
       </li>
       <?php
       $status = $this->session->userdata('level');
-      if($status=='Gudang'){
+      if($status=='Inventory'){
       ?>
       <li id="master" class="treeview">
         <a href="#">

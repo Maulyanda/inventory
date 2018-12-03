@@ -1,6 +1,6 @@
 <?php
 $status = $this->session->userdata('level');
-if($status=='Gudang'){
+if($status=='Inventory'){
 ?>
 <div class="row">
 
@@ -8,7 +8,7 @@ if($status=='Gudang'){
       <div class="info-box bg-green">
       <span class="info-box-icon"><i class="fa fa-thumbs-o-up"></i></span>
       <div class="info-box-content">
-        <a href="Gudang/putaway" class="btn bg-green">CYCLE COUNT</a>
+        <a href="Gudang/cyclecount" class="btn bg-green">CYCLE COUNT</a>
         <span class="info-box-number"><?php echo $cyclecount ?></span>
         <!-- The progress section is optional -->
         <div class="progress">
@@ -73,10 +73,10 @@ if($status=='Gudang'){
     </div>
 
     <div class="col-md-4 col-sm-6 col-xs-12">
-      <div class="info-box bg-navy">
+      <div class="info-box bg-purple">
       <span class="info-box-icon"><i class="fa fa-thumbs-o-up"></i></span>
       <div class="info-box-content">
-        <a href="Gudang/receivinglocal" class="btn bg-navy">RECEIVING LOCAL</a>
+        <a href="Gudang/receivinglocal" class="btn bg-purple">RECEIVING LOCAL</a>
         <span class="info-box-number"><?php echo $receivinglocal ?></span>
         <!-- The progress section is optional -->
         <div class="progress">
@@ -100,7 +100,7 @@ if($status=='Gudang'){
       <div class="info-box bg-green">
       <span class="info-box-icon"><i class="fa fa-thumbs-o-up"></i></span>
       <div class="info-box-content">
-        <a href="Staff/putaway" class="btn bg-green">CYCLE COUNT</a>
+        <a href="Staff/cyclecount" class="btn bg-green">CYCLE COUNT</a>
         <span class="info-box-number"><?php echo $cyclecount ?></span>
         <!-- The progress section is optional -->
         <div class="progress">
